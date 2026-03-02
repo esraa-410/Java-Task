@@ -1,0 +1,87 @@
+body {
+  background: #15161a;
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card {
+  background: hsl(218, 19%, 17%) ;
+  padding: 20px;
+  border-radius: 30px;
+  width: 300px;
+}
+
+.buttons {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rating-btn {
+  background: hsl(221, 19%, 30%) ;
+  margin: 5px;
+  
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color:  hsl(217, 12%, 63%);
+  
+  
+}
+
+
+.rating-btn:hover {
+ 
+ background:   hsl(25, 97%, 53%) ;
+  color:white ;
+  
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 30px;
+  background: hsl(25, 97%, 53%);
+  color:hsl(216, 18%, 16%);
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.hidden {
+  display: none;
+}
+
+
+#thank-card h2 {
+  text-align: center;
+}
+
+
+#thank-card {
+  text-align: center;
+}
+
